@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/firstStep/Source/firstStep/firstStep.Build.cs",
-		"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/firstStep/Source/firstStep.Target.cs",
-		"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/firstStep/Source/firstStepEditor.Target.cs"
-	],
-	"EngineVersion": "5.6.1"
-}
