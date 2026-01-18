@@ -1,0 +1,911 @@
+{
+	"folders": [
+		{
+			"name": "Gameplay_Foundation",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"terminal.integrated.env.linux": {
+			"PATH": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64:${env:PATH}",
+			"DOTNET_ROOT": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64",
+			"DOTNET_HOST_PATH": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64/dotnet",
+			"DOTNET_MULTILEVEL_LOOKUP": "0",
+			"DOTNET_ROLL_FORWARD": "LatestMajor"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "Gameplay_Foundation Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Test",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Test",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Test",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Shipping",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Shipping",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"Linux",
+					"Shipping",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Test",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Test",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Test",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Shipping",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Shipping",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_Foundation LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_Foundation LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_Foundation",
+					"LinuxArm64",
+					"Shipping",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_FoundationEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"Debug",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_FoundationEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"DebugGame",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"Gameplay_FoundationEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"label": "Gameplay_FoundationEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+				"args": [
+					"Gameplay_FoundationEditor",
+					"Linux",
+					"Development",
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Gameplay_Foundation (Debug)",
+				"request": "launch",
+				"program": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Binaries/Linux/Gameplay_Foundation-Linux-Debug",
+				"preLaunchTask": "Gameplay_Foundation Linux Debug Build",
+				"args": [
+				],
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Gameplay_Foundation": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation",
+					"/UEVFS/Root": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"name": "Launch Gameplay_Foundation (DebugGame)",
+				"request": "launch",
+				"program": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Binaries/Linux/Gameplay_Foundation-Linux-DebugGame",
+				"preLaunchTask": "Gameplay_Foundation Linux DebugGame Build",
+				"args": [
+				],
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Gameplay_Foundation": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation",
+					"/UEVFS/Root": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"name": "Launch Gameplay_Foundation (Development)",
+				"request": "launch",
+				"program": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Binaries/Linux/Gameplay_Foundation",
+				"preLaunchTask": "Gameplay_Foundation Linux Development Build",
+				"args": [
+				],
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Gameplay_Foundation": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation",
+					"/UEVFS/Root": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"name": "Launch Gameplay_Foundation (Test)",
+				"request": "launch",
+				"program": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Binaries/Linux/Gameplay_Foundation-Linux-Test",
+				"preLaunchTask": "Gameplay_Foundation Linux Test Build",
+				"args": [
+				],
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Gameplay_Foundation": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation",
+					"/UEVFS/Root": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"name": "Launch Gameplay_Foundation (Shipping)",
+				"request": "launch",
+				"program": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Binaries/Linux/Gameplay_Foundation-Linux-Shipping",
+				"preLaunchTask": "Gameplay_Foundation Linux Shipping Build",
+				"args": [
+				],
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Gameplay_Foundation": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation",
+					"/UEVFS/Root": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"name": "Launch Gameplay_FoundationEditor (Debug)",
+				"request": "launch",
+				"program": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+				"preLaunchTask": "Gameplay_FoundationEditor Linux Debug Build",
+				"args": [
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject"
+				],
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Gameplay_Foundation": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation",
+					"/UEVFS/Root": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"name": "Launch Gameplay_FoundationEditor (DebugGame)",
+				"request": "launch",
+				"program": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+				"preLaunchTask": "Gameplay_FoundationEditor Linux DebugGame Build",
+				"args": [
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject"
+				],
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Gameplay_Foundation": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation",
+					"/UEVFS/Root": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"name": "Launch Gameplay_FoundationEditor (Development)",
+				"request": "launch",
+				"program": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/Linux/UnrealEditor",
+				"preLaunchTask": "Gameplay_FoundationEditor Linux Development Build",
+				"args": [
+					"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject"
+				],
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release",
+				"type": "cppdbg",
+				"visualizerFile": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+				"showDisplayString": true,
+				"sourceFileMap": {
+					"/UEVFS/Gameplay_Foundation": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation",
+					"/UEVFS/Root": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Linux Development Build",
+				"program": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Gameplay_Foundation.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"env": {
+					"PATH": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64:${env:PATH}",
+					"DOTNET_ROOT": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64",
+					"DOTNET_HOST_PATH": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Binaries/ThirdParty/DotNet/8.0.300/linux-x64/dotnet",
+					"DOTNET_MULTILEVEL_LOOKUP": "0",
+					"DOTNET_ROLL_FORWARD": "LatestMajor"
+				},
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/mnt/data/UE/UnrealEngine-5.6.1-release"
+			}
+		]
+	}
+}

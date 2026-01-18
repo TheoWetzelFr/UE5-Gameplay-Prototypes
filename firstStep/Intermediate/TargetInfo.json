@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "firstStep",
+			"Path": "../Source/firstStep.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "firstStepEditor",
+			"Path": "../Source/firstStepEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

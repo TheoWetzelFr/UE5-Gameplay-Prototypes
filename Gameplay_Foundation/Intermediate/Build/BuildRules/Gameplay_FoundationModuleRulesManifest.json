@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_Foundation.Build.cs",
+		"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation.Target.cs",
+		"/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_FoundationEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

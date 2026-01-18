@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Gameplay_Foundation",
+			"Path": "../Source/Gameplay_Foundation.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Gameplay_FoundationEditor",
+			"Path": "../Source/Gameplay_FoundationEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

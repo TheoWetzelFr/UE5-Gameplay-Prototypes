@@ -1,0 +1,666 @@
+[
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_Foundation.Build.cs",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_Foundation.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_Foundation.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_FoundationCharacter.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_FoundationCharacter.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_FoundationGameMode.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_FoundationGameMode.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_FoundationPlayerController.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Gameplay_FoundationPlayerController.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/CombatAIController.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/CombatAIController.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/CombatEnemy.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/CombatEnemy.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/CombatEnemySpawner.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/CombatEnemySpawner.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/CombatStateTreeUtility.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/CombatStateTreeUtility.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/EnvQueryContext_Player.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/AI/EnvQueryContext_Player.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Animation/AnimNotify_CheckChargedAttack.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Animation/AnimNotify_CheckChargedAttack.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Animation/AnimNotify_CheckCombo.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Animation/AnimNotify_CheckCombo.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Animation/AnimNotify_DoAttackTrace.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Animation/AnimNotify_DoAttackTrace.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/CombatCharacter.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/CombatCharacter.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/CombatGameMode.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/CombatGameMode.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/CombatPlayerController.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/CombatPlayerController.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatActivationVolume.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatActivationVolume.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatCheckpointVolume.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatCheckpointVolume.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatDamageableBox.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatDamageableBox.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatDummy.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatDummy.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatLavaFloor.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Gameplay/CombatLavaFloor.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Interfaces/CombatActivatable.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Interfaces/CombatActivatable.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Interfaces/CombatAttacker.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Interfaces/CombatAttacker.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Interfaces/CombatDamageable.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/Interfaces/CombatDamageable.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/UI/CombatLifeBar.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Combat/UI/CombatLifeBar.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Platforming/Animation/AnimNotify_EndDash.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Platforming/Animation/AnimNotify_EndDash.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Platforming/PlatformingCharacter.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Platforming/PlatformingCharacter.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Platforming/PlatformingGameMode.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Platforming/PlatformingGameMode.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Platforming/PlatformingPlayerController.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_Platforming/PlatformingPlayerController.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/AI/SideScrollingAIController.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/AI/SideScrollingAIController.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/AI/SideScrollingNPC.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/AI/SideScrollingNPC.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/AI/SideScrollingStateTreeUtility.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/AI/SideScrollingStateTreeUtility.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Gameplay/SideScrollingPickup.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Gameplay/SideScrollingPickup.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Interfaces/SideScrollingInteractable.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/Interfaces/SideScrollingInteractable.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/SideScrollingCameraManager.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/SideScrollingCameraManager.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/SideScrollingCharacter.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/SideScrollingCharacter.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/SideScrollingGameMode.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/SideScrollingGameMode.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/SideScrollingPlayerController.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/SideScrollingPlayerController.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/UI/SideScrollingUI.cpp",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	},
+	{
+		"file": "/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/Source/Gameplay_Foundation/Variant_SideScrolling/UI/SideScrollingUI.h",
+		"arguments": [
+			"/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v25_clang-18.1.0-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/data/Dev/Projet-1/UE5-Gameplay-Prototypes/Gameplay_Foundation/.vscode/compileCommands_Default/Gameplay_Foundation.1.rsp"
+		],
+		"directory": "/mnt/data/UE/UnrealEngine-5.6.1-release/Engine/Source"
+	}
+]
